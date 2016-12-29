@@ -28,6 +28,7 @@ import MessageBox from '../packages/message-box';
 import InfiniteScroll from '../packages/infinite-scroll';
 import Lazyload from '../packages/lazyload';
 import DatetimePicker from '../packages/datetime-picker';
+import SelectPicker from '../packages/select-picker';
 import IndexList from '../packages/index-list';
 import IndexSection from '../packages/index-section';
 import PaletteButton from '../packages/palette-button';
@@ -62,6 +63,7 @@ const install = function(Vue) {
   Vue.component(Picker.name, Picker);
   Vue.component(Progress.name, Progress);
   Vue.component(DatetimePicker.name, DatetimePicker);
+  Vue.component(SelectPicker.name, SelectPicker);
   Vue.component(IndexList.name, IndexList);
   Vue.component(IndexSection.name, IndexSection);
   Vue.component(PaletteButton.name, PaletteButton);
@@ -114,6 +116,7 @@ export {
   InfiniteScroll,
   Lazyload,
   DatetimePicker,
+  SelectPicker,
   IndexList,
   IndexSection,
   PaletteButton
